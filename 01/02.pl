@@ -26,4 +26,4 @@ for my $i (0 .. $#left_col) {
 
 close($fh);
 
-print "[ RESULT ] Distance: $similarity\n";
+print "Part 02 : $similarity\n";
