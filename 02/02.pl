@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $input = "input-debug.txt";
+my $input = "input.txt";
 
 open(my $fh, '<', $input) or die "Cannot open file '$input': $!";
 
