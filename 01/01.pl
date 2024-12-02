@@ -27,4 +27,4 @@ for my $i (0 .. $#sorted_left) {
     $total += abs($sorted_left[$i] - abs $sorted_right[$i]);
 }
 
-print "[ RESULT ] Distance: $total\n";
+print "Part 01 : $total\n";
