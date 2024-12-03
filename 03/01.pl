@@ -12,7 +12,7 @@ my $total = 0;
 
 while (<$fh>) {
     chomp;
-    while ($_ =~ /mul\((\d+),(\d+)\)/gm) {
+    while ($_ =~ /mul\((\d{1,3}),(\d{1,3})\)/gm) {
         $total += $1 * $2;
     }
 } close($fh);
