@@ -8,53 +8,53 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
-    <td style="border: none;">
-      <table style="width: 100%; border: none;">
+    <td style="border: none !important;">
+      <table style="width: 100%; border: none !important;">
         <tr>
-          <th style="border: none; text-align: center;">Day</th>
-          <th style="border: none; text-align: center;">Stars</th>
+          <th style="border: none !important; text-align: center;">Day</th>
+          <th style="border: none !important; text-align: center;">Stars</th>
         </tr>
-        <tr><td style="border: none;">Day 01</td><td style="border: none;">:star2: :star2:</td></tr>
-        <tr><td style="border: none;">Day 02</td><td style="border: none;">:star2: :star2:</td></tr>
-        <tr><td style="border: none;">Day 03</td><td style="border: none;">:star2: :star2:</td></tr>
-        <tr><td style="border: none;">Day 04</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 05</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 01</td><td style="border: none !important;">:star2: :star2:</td></tr>
+        <tr><td style="border: none !important;">Day 02</td><td style="border: none !important;">:star2: :star2:</td></tr>
+        <tr><td style="border: none !important;">Day 03</td><td style="border: none !important;">:star2: :star2:</td></tr>
+        <tr><td style="border: none !important;">Day 04</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 05</td><td style="border: none !important;">:gift: :gift:</td></tr>
       </table>
     </td>
-    <td style="border: none;">
-      <table style="width: 100%; border: none;">
-        <tr><td style="border: none;">Day 06</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 07</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 08</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 09</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 10</td><td style="border: none;">:gift: :gift:</td></tr>
+    <td style="border: none !important;">
+      <table style="width: 100%; border: none !important;">
+        <tr><td style="border: none !important;">Day 06</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 07</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 08</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 09</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 10</td><td style="border: none !important;">:gift: :gift:</td></tr>
       </table>
     </td>
-    <td style="border: none;">
-      <table style="width: 100%; border: none;">
-        <tr><td style="border: none;">Day 11</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 12</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 13</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 14</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 15</td><td style="border: none;">:gift: :gift:</td></tr>
+    <td style="border: none !important;">
+      <table style="width: 100%; border: none !important;">
+        <tr><td style="border: none !important;">Day 11</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 12</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 13</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 14</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 15</td><td style="border: none !important;">:gift: :gift:</td></tr>
       </table>
     </td>
-    <td style="border: none;">
-      <table style="width: 100%; border: none;">
-        <tr><td style="border: none;">Day 16</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 17</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 18</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 19</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 20</td><td style="border: none;">:gift: :gift:</td></tr>
+    <td style="border: none !important;">
+      <table style="width: 100%; border: none !important;">
+        <tr><td style="border: none !important;">Day 16</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 17</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 18</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 19</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 20</td><td style="border: none !important;">:gift: :gift:</td></tr>
       </table>
     </td>
-    <td style="border: none;">
-      <table style="width: 100%; border: none;">
-        <tr><td style="border: none;">Day 21</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 22</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 23</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 24</td><td style="border: none;">:gift: :gift:</td></tr>
-        <tr><td style="border: none;">Day 25</td><td style="border: none;">:gift: :gift:</td></tr>
+    <td style="border: none !important;">
+      <table style="width: 100%; border: none !important;">
+        <tr><td style="border: none !important;">Day 21</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 22</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 23</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 24</td><td style="border: none !important;">:gift: :gift:</td></tr>
+        <tr><td style="border: none !important;">Day 25</td><td style="border: none !important;">:gift: :gift:</td></tr>
       </table>
     </td>
   </tr>
