@@ -15,10 +15,6 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | ... | :gift: :gift: | -->
 
 <table>
-<tr>
-    <th></th>
-    <th></th>
-</tr>
 <tr><td>
 
 |Table 1| Middle | Table 2|
