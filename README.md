@@ -18,4 +18,4 @@ The calendar idea was inspired by [@anamsmartins](https://github.com/anamsmartin
 
 ## Input Files
 
-The actual input files for my entries are stored in a submodule that points to a private repository and are not included here. However, all my solutions are designed to work with any valid inputs. Feel free to grab your own inputs from the [Advent of Code](https://adventofcode.com/) website and try them out!
+The input files for my entries are stored in each day's folder. However, all my solutions are designed to work with any valid inputs. Feel free to grab your own inputs from the [Advent of Code](https://adventofcode.com/) website and try them out!
