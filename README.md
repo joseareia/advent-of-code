@@ -6,28 +6,29 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 
 ## Progress
 
-<!-- | Day | Stars |
+<table style="border:none;">
+<tr>
+<td style="border:none;">
+
+| Day | Stars |
 | :-: | :-: |
 | Day 01 | :star2: :star2: |
 | Day 02 | :star2: :star2: |
 | Day 03 | :star2: :star2: |
 | Day 04 | :gift: :gift: |
-| ... | :gift: :gift: | -->
-
-<table>
-<tr><td>
-
-|Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
-
-</td><td>
-
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
-
+| Day 05 | :gift: :gift: |
 </td>
+
+<td style="border:none;">
+| Day | Stars |
+| :-: | :-: |
+| Day 06 | :star2: :star2: |
+| Day 07 | :star2: :star2: |
+| Day 08 | :star2: :star2: |
+| Day 09 | :gift: :gift: |
+| Day 10 | :gift: :gift: |
+</td>
+
 </tr> 
 </table>
 
