@@ -6,9 +6,9 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 
 ## Progress
 
-<table style="border:none;">
-<tr style="border:none;">
-<td style="border:none;">
+<table style="border:none!important;">
+<tr style="border:none!important;">
+<td style="border:none!important;">
 
 | Day | Stars |
 | :-: | :-: |
@@ -19,15 +19,51 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | Day 05 | :gift: :gift: |
 
 </td>
-<td style="border:none;">
+<td style="border:none!important;">
 
 | Day | Stars |
 | :-: | :-: |
-| Day 06 | :star2: :star2: |
-| Day 07 | :star2: :star2: |
-| Day 08 | :star2: :star2: |
+| Day 06 | :gift: :gift: |
+| Day 07 | :gift: :gift: |
+| Day 08 | :gift: :gift: |
 | Day 09 | :gift: :gift: |
 | Day 10 | :gift: :gift: |
+
+</td>
+
+<td style="border:none!important;">
+
+| Day | Stars |
+| :-: | :-: |
+| Day 11 | :gift: :gift: |
+| Day 12 | :gift: :gift: |
+| Day 13 | :gift: :gift: |
+| Day 14 | :gift: :gift: |
+| Day 15 | :gift: :gift: |
+
+</td>
+
+<td style="border:none!important;">
+
+| Day | Stars |
+| :-: | :-: |
+| Day 16 | :gift: :gift: |
+| Day 17 | :gift: :gift: |
+| Day 18 | :gift: :gift: |
+| Day 19 | :gift: :gift: |
+| Day 20 | :gift: :gift: |
+
+</td>
+
+<td style="border:none!important;">
+
+| Day | Stars |
+| :-: | :-: |
+| Day 21 | :gift: :gift: |
+| Day 22 | :gift: :gift: |
+| Day 23 | :gift: :gift: |
+| Day 24 | :gift: :gift: |
+| Day 25 | :gift: :gift: |
 
 </td>
 </tr> 
