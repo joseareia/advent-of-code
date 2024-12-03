@@ -7,9 +7,7 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 ## Progress
 
 <table style="border:none;">
-<tr>
-<td style="border:none;">
-
+<tr style="border:none;"><td style="border:none;">
 | Day | Stars |
 | :-: | :-: |
 | Day 01 | :star2: :star2: |
@@ -17,9 +15,7 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | Day 03 | :star2: :star2: |
 | Day 04 | :gift: :gift: |
 | Day 05 | :gift: :gift: |
-</td>
-
-<td style="border:none;">
+</td><td style="border:none;">
 | Day | Stars |
 | :-: | :-: |
 | Day 06 | :star2: :star2: |
@@ -28,7 +24,6 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | Day 09 | :gift: :gift: |
 | Day 10 | :gift: :gift: |
 </td>
-
 </tr> 
 </table>
 
