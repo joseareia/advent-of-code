@@ -6,13 +6,13 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 
 ## Progress
 
-| Day | Stars |
-| :-: | :-: |
-| Day 01 | :star2: :star2: |
-| Day 02 | :star2: :star2: |
-| Day 03 | :star2: :star2: |
-| Day 04 | :gift: :gift: |
-| ... | :gift: :gift: |
+| Day | Stars | | Day | Stars |
+| :-: | :-: | | :-: | :-: |
+| Day 01 | :star2: :star2: | | Day 01 | :star2: :star2: |
+| Day 02 | :star2: :star2: | | Day 01 | :star2: :star2: |
+| Day 03 | :star2: :star2: | | Day 01 | :star2: :star2: |
+| Day 04 | :gift: :gift: | | Day 01 | :star2: :star2: |
+| ... | :gift: :gift: | | Day 01 | :star2: :star2: |
 
 The calendar idea was inspired by [@anamsmartins](https://github.com/anamsmartins/adventOfCode2024) :heart:
 
