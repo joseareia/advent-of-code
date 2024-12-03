@@ -10,7 +10,7 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | :-: | :-: |
 | Day 01 | :star2: :star2: |
 | Day 02 | :star2: :star2: |
-| Day 03 | :gift: :gift: |
+| Day 03 | :star2: :star2: |
 | Day 04 | :gift: :gift: |
 | ... | :gift: :gift: |
 
