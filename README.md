@@ -6,68 +6,60 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 
 ## Progress
 
-<table style="border:none!important;">
-<tr style="border:none!important;">
-<td style="border:none!important;">
-
-| Day | Stars |
-| :-: | :-: |
-| Day 01 | :star2: :star2: |
-| Day 02 | :star2: :star2: |
-| Day 03 | :star2: :star2: |
-| Day 04 | :gift: :gift: |
-| Day 05 | :gift: :gift: |
-
-</td>
-<td style="border:none!important;">
-
-| Day | Stars |
-| :-: | :-: |
-| Day 06 | :gift: :gift: |
-| Day 07 | :gift: :gift: |
-| Day 08 | :gift: :gift: |
-| Day 09 | :gift: :gift: |
-| Day 10 | :gift: :gift: |
-
-</td>
-
-<td style="border:none!important;">
-
-| Day | Stars |
-| :-: | :-: |
-| Day 11 | :gift: :gift: |
-| Day 12 | :gift: :gift: |
-| Day 13 | :gift: :gift: |
-| Day 14 | :gift: :gift: |
-| Day 15 | :gift: :gift: |
-
-</td>
-
-<td style="border:none!important;">
-
-| Day | Stars |
-| :-: | :-: |
-| Day 16 | :gift: :gift: |
-| Day 17 | :gift: :gift: |
-| Day 18 | :gift: :gift: |
-| Day 19 | :gift: :gift: |
-| Day 20 | :gift: :gift: |
-
-</td>
-
-<td style="border:none!important;">
-
-| Day | Stars |
-| :-: | :-: |
-| Day 21 | :gift: :gift: |
-| Day 22 | :gift: :gift: |
-| Day 23 | :gift: :gift: |
-| Day 24 | :gift: :gift: |
-| Day 25 | :gift: :gift: |
-
-</td>
-</tr> 
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="border: none;">
+      <table style="width: 100%; border: none;">
+        <tr>
+          <th style="border: none; text-align: center;">Day</th>
+          <th style="border: none; text-align: center;">Stars</th>
+        </tr>
+        <tr><td style="border: none;">Day 01</td><td style="border: none;">:star2: :star2:</td></tr>
+        <tr><td style="border: none;">Day 02</td><td style="border: none;">:star2: :star2:</td></tr>
+        <tr><td style="border: none;">Day 03</td><td style="border: none;">:star2: :star2:</td></tr>
+        <tr><td style="border: none;">Day 04</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 05</td><td style="border: none;">:gift: :gift:</td></tr>
+      </table>
+    </td>
+    <td style="border: none;">
+      <table style="width: 100%; border: none;">
+        <tr><td style="border: none;">Day 06</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 07</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 08</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 09</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 10</td><td style="border: none;">:gift: :gift:</td></tr>
+      </table>
+    </td>
+    <td style="border: none;">
+      <table style="width: 100%; border: none;">
+        <tr><td style="border: none;">Day 11</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 12</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 13</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 14</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 15</td><td style="border: none;">:gift: :gift:</td></tr>
+      </table>
+    </td>
+    <td style="border: none;">
+      <table style="width: 100%; border: none;">
+        <tr><td style="border: none;">Day 16</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 17</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 18</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 19</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 20</td><td style="border: none;">:gift: :gift:</td></tr>
+      </table>
+    </td>
+    <td style="border: none;">
+      <table style="width: 100%; border: none;">
+        <tr><td style="border: none;">Day 21</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 22</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 23</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 24</td><td style="border: none;">:gift: :gift:</td></tr>
+        <tr><td style="border: none;">Day 25</td><td style="border: none;">:gift: :gift:</td></tr>
+      </table>
+    </td>
+  </tr>
 </table>
+
 
 The calendar idea was inspired by [@anamsmartins](https://github.com/anamsmartins/adventOfCode2024) :heart:
 
