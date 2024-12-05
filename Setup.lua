@@ -4,87 +4,40 @@
 -- Description: Automates content generation for a specific Advent of Code day.
 -- Note: Input files are not auto-downloaded intentionally, as I enjoy examining the input manually.
 
-local function pad_number(num)
-    return string.format("%02d", num)
-end
+-- Utils
+local utils = require("Utils")
 
-local function directory_exists(path)
-    local file = io.open(path, "r")
-    if file then
-        file:close()
-        return true
-    else
-        return false
-    end
-end
+-- Log message within a systemd boot style.. cause it's cool!
+local ok = "[\27[32m OK \27[0m] "
+local nok = "[\27[31m NOK \27[0m] "
 
-local function show_progress(verb, task)
-    for i = 1, 100 do
-        io.write(string.format("\r[\27[32m OK \27[0m] \27[90m%s\27[0m %s... %d%%", verb, task, i))
-        io.flush()
-        os.execute("sleep 0.0001") -- To make the output cool!
-    end
-    io.write(string.format("\r[\27[32m OK \27[0m] \27[90m%s\27[0m %s... Done\n", verb, task))
-end
-
-local function create_perl_files(number)
-    local folder_name = pad_number(number)
-    show_progress("Creating", "the project directory")
-
-    if not directory_exists(folder_name) then
-        print("Failed to create the directory '" .. folder_name .. "'.")
-        return
-    end
-
-    os.execute("mkdir -p " .. folder_name)
-
-    local input_file = io.open(folder_name .. "/input.txt", "w")
-    if input_file then
-        show_progress("Creating", "the input file")
-        input_file:write("AoC!\n")
-        input_file:close()
-    else
-        print("Could not create 'input.txt' in folder.")
-        return
-    end
-
-    show_progress("Creating", "the script files")
-    for i = 1, 2 do
-        local pl_filename = folder_name .. "/" .. pad_number(i) .. ".pl"
-        local pl_file = io.open(pl_filename, "w")
-        if pl_file then
-            local script_content = [[
-#!/usr/bin/perl
-
-use strict;
-use warnings;
-
-open(my $in, '<', 'input.txt') or die $!;
-
-my @line;
-my $total = 0;
-
-while (<$in>) {
-    chomp;
-    my @line = split(/\s+/, $_);
-}
-
-print "Part ]] .. pad_number(i) .. [[ : $total\n";
-]]
-        pl_file:write(script_content)
-        pl_file:close()
-        else
-            print("Could not create the files in folder.")
-            return
-        end
-    end
-end
-
+-- Fetch the Advent of Code day by a user input.
 io.write("Advent of Code - Please specify the day (1-25): ")
-local number = tonumber(io.read())
+local day = tonumber(io.read())
+if not (day >= 1 and day <= 25) then print(nok .. "Invalid day entered.") goto exit end
 
-if number and number >= 1 and number <= 25 then
-    create_perl_files(number)
-else
-    print("Invalid number entered.")
+-- Creates a folder for the specified Advent of Code day.
+local folder = utils.pad_number(day)
+if io.open(folder, "r") then print(nok .. "The directory for that day already exists.") goto exit end
+local command = "mkdir -p " .. folder
+utils.show_progress("Creating the project directory", command)
+
+-- Creates the input file and places it inside the previously created directory.
+local input_file = io.open(folder .. "/input.txt", "w")
+if not input_file then print(nok .. "Failed to create the input file.") goto exit end
+utils.show_progress("Creating the input file")
+input_file:write("Place your input file here.\n") -- Content that will be placed inside the input file.
+input_file:close()
+
+-- Creates the Perl script file and places it inside the previously created directory.
+utils.show_progress("Creating the script files")
+for i = 1, 2 do
+    local pl_filename = folder .. "/" .. utils.pad_number(i) .. ".pl"
+    local pl_file = io.open(pl_filename, "w")
+    if not pl_file then print(nok .. "Failed to create the script files.") goto exit end
+    script_content = utils.perl_script(i)
+    pl_file:write(script_content) -- Content that will be placed inside the script files.
+    pl_file:close()
 end
+
+::exit::
