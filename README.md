@@ -15,6 +15,7 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | Day 05 | :star2: :star2: |
 | Day 06 | :star2: :star2: |
 | Day 07 | :star2: :star2: |
+| Day 08 | :star2: :star2: |
 
 The calendar idea was inspired by [@anamsmartins](https://github.com/anamsmartins/adventOfCode2024) :heart:
 
