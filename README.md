@@ -8,8 +8,10 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 
 <table>
 <tr>
-    <th>Day 01 - 10</th>
-    <th>Day 11 - 20</th>
+    <th>Week 49</th>
+    <th>Week 50</th>
+    <th>Week 51</th>
+    <th>Week 52</th>
 </tr>
 <tr>
 <td>
@@ -24,24 +26,41 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | Day 06 | :star2: :star2: |
 | Day 07 | :star2: :star2: |
 | Day 08 | :star2: :star2: |
-| Day 09 | :star2: :star2: |
-| Day 10 | :star2: :star2: |
 
 </td>
 <td>
 
 | Day | Stars |
 | :-: | :-: |
+| Day 09 | :star2: :star2: |
+| Day 10 | :star2: :star2: |
 | Day 11 | :gift: :gift: |
 | Day 12 | :gift: :gift: |
 | Day 13 | :gift: :gift: |
 | Day 14 | :gift: :gift: |
 | Day 15 | :gift: :gift: |
+
+</td><td>
+
+| Day | Stars |
+| :-: | :-: |
 | Day 16 | :gift: :gift: |
 | Day 17 | :gift: :gift: |
 | Day 18 | :gift: :gift: |
 | Day 19 | :gift: :gift: |
 | Day 20 | :gift: :gift: |
+| Day 21 | :gift: :gift: |
+| Day 22 | :gift: :gift: |
+
+</td>
+
+<td>
+
+| Day | Stars |
+| :-: | :-: |
+| Day 23 | :gift: :gift: |
+| Day 24 | :gift: :gift: |
+| Day 25 | :gift: :gift: |
 
 </td>
 </tr>
