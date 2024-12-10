@@ -6,67 +6,7 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 
 ## Progress
 
-<table>
-<tr>
-    <th>Week 49</th>
-    <th>Week 50</th>
-    <th>Week 51</th>
-    <th>Week 52</th>
-</tr>
-<tr>
-<td>
-
 | Day | Stars |
-| :-: | :-: |
-| Day 01 | :star2: :star2: |
-| Day 02 | :star2: :star2: |
-| Day 03 | :star2: :star2: |
-| Day 04 | :star2: :star2: |
-| Day 05 | :star2: :star2: |
-| Day 06 | :star2: :star2: |
-| Day 07 | :star2: :star2: |
-| Day 08 | :star2: :star2: |
-
-</td>
-<td>
-
-| Day | Stars |
-| :-: | :-: |
-| Day 09 | :star2: :star2: |
-| Day 10 | :star2: :star2: |
-| Day 11 | :gift: :gift: |
-| Day 12 | :gift: :gift: |
-| Day 13 | :gift: :gift: |
-| Day 14 | :gift: :gift: |
-| Day 15 | :gift: :gift: |
-
-</td><td>
-
-| Day | Stars |
-| :-: | :-: |
-| Day 16 | :gift: :gift: |
-| Day 17 | :gift: :gift: |
-| Day 18 | :gift: :gift: |
-| Day 19 | :gift: :gift: |
-| Day 20 | :gift: :gift: |
-| Day 21 | :gift: :gift: |
-| Day 22 | :gift: :gift: |
-
-</td>
-
-<td>
-
-| Day | Stars |
-| :-: | :-: |
-| Day 23 | :gift: :gift: |
-| Day 24 | :gift: :gift: |
-| Day 25 | :gift: :gift: |
-
-</td>
-</tr>
-</table>
-
-<!-- | Day | Stars |
 | :-: | :-: |
 | Day 01 | :star2: :star2: |
 | Day 02 | :star2: :star2: |
@@ -77,7 +17,7 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | Day 07 | :star2: :star2: |
 | Day 08 | :star2: :star2: |
 | Day 09 | :star2: :star2: |
-| Day 10 | :star2: :star2: | -->
+| Day 10 | :star2: :star2: |
 
 The calendar idea was inspired by [@anamsmartins](https://github.com/anamsmartins/adventOfCode2024) :heart:
 
