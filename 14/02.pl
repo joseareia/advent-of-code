@@ -20,20 +20,13 @@ while (1) {
     }
 
     my $found = 0;
-    foreach my $row (@grid) {
-        my $line = join("", @$row);
-        if ($line =~ /#{10,}/) {
-            $found = 1;
-            last;
-        }
-    }
+    $found = 1 if grep { join("", @$_) =~ /#{10,}/ } @grid;
 
     if ($found) {
         foreach my $row (@grid) {
             print join("", @$row), "\n";
         }
-        print "Part 02 : $time\n";
-        last;
+        print "Part 02 : $time\n"; last;
     }
     print $time, "\n";
     $time++;
