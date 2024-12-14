@@ -8,11 +8,11 @@ my @robots = map {/p=(-?\d+),(-?\d+)\s+v=(-?\d+),(-?\d+)/ ? {x=>$1, y=>$2, vx=>$
 
 my ($time, $width, $height) = (100, 101, 103);
 foreach my $robot (@robots) {
-    # The modulos operand (%) can give the exactly 'x' or 'y' coordinate within the grid size specified.
+    # The modulo operator (%) can give the exactly 'x' or 'y' coordinate within the grid size specified.
     $robot->{x} = ($robot->{x} + $robot->{vx} * $time) % $width; 
     $robot->{y} = ($robot->{y} + $robot->{vy} * $time) % $height;
 
-    # Perl can make the result of a modulo operand negative. Good job Perl!
+    # Perl can make the result of a modulo operator negative. Good job Perl!
     # We need to make sure that the value of 'x' and 'y' are both positive.
     $robot->{x} += $width if $robot->{x} < 0;
     $robot->{y} += $height if $robot->{y} < 0;
