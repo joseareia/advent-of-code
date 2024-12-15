@@ -22,6 +22,7 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | Day 12 | :star2: :star2: |
 | Day 13 | :star2: :star2: |
 | Day 14 | :star2: :star2: |
+| Day 15 | :star2: :gift: |
 
 The calendar idea was inspired by [@anamsmartins](https://github.com/anamsmartins/adventOfCode2024) :heart:
 
