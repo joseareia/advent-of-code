@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-open my $in, '<', 'input.txt' or die "Cannot open input.txt: $!";
+open my $in, '<', 'input.txt' or die $!;
 
 my @data = <$in>; chomp @data;
 my @directions = ([1, 0], [0, 1], [-1, 0], [0, -1]);
