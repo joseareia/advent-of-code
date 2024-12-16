@@ -2,7 +2,7 @@
 [![made-with-perl](https://img.shields.io/badge/Made%20with-Perl-1f425f.svg?color=green)](https://www.perl.org/)
 [![made-with-lua](https://img.shields.io/badge/Made%20with-Lua-1f425f.svg?color=blue)](https://www.lua.org/)
 
-This repository contains my entries for the [Advent of Code](https://adventofcode.com/), implemented primarily in [Perl](https://www.perl.org/). I may also explore solutions in [Lua](https://www.lua.org/) as the challenge progresses.
+This repository contains my entries for the [Advent of Code](https://adventofcode.com/), implemented primarily in [Perl](https://www.perl.org/). I may also explore solutions in [Lua](https://www.lua.org/) as the challenge progresses. Please note that the _comments_ in the code reflect my thought process while developing the solutions for each corresponding day.
 
 ## Progress
 
