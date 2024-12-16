@@ -2,73 +2,55 @@
 
 use strict;
 use warnings;
+use List::Util qw(all sum);
 
 open(my $in, '<', 'input.txt') or die $!;
 
-my (@grid, @movements, $robot_x, $robot_y);
-my %directions = ('^' => [-1, 0], 'v' => [1, 0], '<' => [0, -1], '>' => [0, 1]);
+my ($map, $moves) = split /\n\n/, join '', <$in>;
+my @move = $moves =~ /./g; # Parsing the moves into a new array. Easier to access.
+my %directions = ("^" => [0, -1], "v" => [0, 1], "<" => [-1, 0], ">" => [1, 0]);
 
-while (<$in>) {
-    chomp;
-    push @grid, [split('', $_)] if (/[#\.O@]+$/);
-    push @movements, split('', $_) if (/[<^>v]/);
+$map =~ s/./{ '#'=>'##', 'O'=>'[]', '.'=>'..', '@'=>'@.' }->{$&}/ge;
+
+my ($x, $y, $w, $n, %grid) = (0, 0);
+for ($map =~ /.+/g) {
+    $grid{$x++, $y} = $_ for /./g;
+    $w //= $x;
+    $y++;
+    $x = 0;
 }
 
-my @new_grid;
-for my $row (@grid) {
-    my @new_row;
-    foreach my $tile (@$row) {
-        push @new_row, 
-            $tile eq '#' ? ('#', '#') :
-            $tile eq 'O' ? ('[', ']') :
-            $tile eq '.' ? ('.', '.') :
-            $tile eq '@' ? ('@', '.') : ();
+($x, $y) = $map =~ /@/ ? (length($`) % ($w + 1), int(length($`) / ($w + 1))) : die;
+
+MOVE:
+for my $move (@move) {
+    my ($dx, $dy) = @{ $directions{$move} };
+    my (@check, @gridmoves, %visited) = ([$x, $y]);
+
+    # Once again I'm using a tree search algoritm.
+    # In this case I'm using BFS, therefore I do need to shift the first position in the queue.
+    while (@check) {
+        my ($cx, $cy) = @{shift @check};
+        my $cell = $grid{$cx, $cy};
+
+        next MOVE if $cell eq '#';  # Skip if it hits the wall.
+        next if $visited{$cx, $cy}++; # Skip if was already visited.
+        next if index('@[]', $cell) == -1; # Skip invalid cells.
+
+        push @gridmoves, [$cx, $cy];
+
+        push @check, [$cx + 1, $cy] if $cell eq '[';
+        push @check, [$cx - 1, $cy] if $cell eq ']';
+        push @check, [$cx + $dx, $cy + $dy];
     }
-    push @new_grid, \@new_row;
+
+    for (reverse @gridmoves) {
+        my ($cx, $cy) = @$_;
+        $grid{$cx + $dx, $cy + $dy} = substr($map, $cx + $dx + ($cy + $dy) * ($w + 1), 1) = $grid{$cx, $cy};
+        $grid{$cx, $cy} = substr($map, $cx + $cy * ($w + 1), 1) = '.';
+    }
+    $x += $dx, $y += $dy if @gridmoves;
 }
 
-for my $row (0 .. $#new_grid) {
-    for my $col (0 .. $#{$new_grid[$row]}) {
-        ($robot_x, $robot_y) = ($row, $col) if ($new_grid[$row][$col] eq '@');
-    }
-}
-
-foreach my $movement (@movements) {
-    my ($dx, $dy) = @{$directions{$movement}};
-    my ($next_x, $next_y) = ($robot_x + $dx, $robot_y + $dy);
-
-    if ($new_grid[$next_x][$next_y] eq '.') {
-        ($new_grid[$next_x][$next_y], $new_grid[$robot_x][$robot_y]) = ('@', '.');
-        ($robot_x, $robot_y) = ($next_x, $next_y);
-    }
-
-    if ($new_grid[$next_x][$next_y] eq '[' || $new_grid[$next_x][$next_y] eq ']') {
-        my @box_positions = ([$next_x, $next_y]);
-        my ($box_x, $box_y) = ($next_x + $dx, $next_y + $dy);
-
-        while ($new_grid[$box_x][$box_y] eq '[' || $new_grid[$box_x][$box_y] eq ']') {
-            push @box_positions, [$box_x, $box_y];
-            ($box_x, $box_y) = ($box_x + $dx, $box_y + $dy);
-        }
-
-        if ($new_grid[$box_x][$box_y] eq '.') {
-            foreach my $pos (reverse @box_positions) {
-                my ($bx, $by) = @$pos;
-                $new_grid[$bx + $dx][$by + $dy] = $new_grid[$bx][$by];
-                $new_grid[$bx][$by] = '.';
-            }
-
-            ($new_grid[$next_x][$next_y], $new_grid[$robot_x][$robot_y]) = ('@', '.');
-            ($robot_x, $robot_y) = ($next_x, $next_y);
-        }
-    }
-}
-
-my $total = 0;
-for my $row (0 .. $#new_grid) {
-    for my $col (0 .. $#{$new_grid[$row]}) {
-        ($total += 100 * $row + $col) if ($new_grid[$row][$col] eq ']');
-    }
-}
-
-print "Part 02: $total\n";
+my $total = sum map { my ($x, $y) = /\d+/g; $x + $y * 100; } grep $grid{$_} =~ /\[/, keys %grid;
+print "Part 02 : $total\n";
