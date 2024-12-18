@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use List::Util qw(min);
 
-open(my $in, '<', 'input.txt') or die "Cannot open input.txt: $!";
+open(my $in, '<', 'input.txt') or die $!;
 
 my $grid_size = 70;
 my @falling_bytes;
@@ -12,21 +12,20 @@ my @falling_bytes;
 while (<$in>) { chomp; push @falling_bytes, [split /,/, $_]; }
 
 my @grid;
-for my $i (0..$grid_size) {
-    for my $j (0..$grid_size) {
+for my $i (0 .. $grid_size) {
+    for my $j (0 .. $grid_size) {
         $grid[$i][$j] = '.';
     }
 }
 
-for my $i (0..min(1023, $#falling_bytes)) {
+for my $i (0 .. min(1023, $#falling_bytes)) {
     my ($x, $y) = @{$falling_bytes[$i]};
     $grid[$y][$x] = '#';
 }
 
 sub shortest_path {
     my @queue = ([0, 0, 0]);
-    my %visited; 
-    $visited{"0,0"} = 1;
+    my %visited; $visited{"0,0"} = 1;
 
     while (@queue) {
         my ($x, $y, $steps) = @{shift @queue};
