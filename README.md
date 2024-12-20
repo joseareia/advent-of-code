@@ -27,6 +27,7 @@ This repository contains my entries for the [Advent of Code](https://adventofcod
 | Day 17 | :star2: :star2: |
 | Day 18 | :star2: :star2: |
 | Day 19 | :star2: :star2: |
+| Day 20 | :star2: :gift: |
 
 The calendar idea was inspired by [@anamsmartins](https://github.com/anamsmartins/adventOfCode2024) :heart:
 
