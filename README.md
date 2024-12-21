@@ -3,11 +3,13 @@
 [![current-2015](https://img.shields.io/badge/In%20Progess-2015-1f425f.svg?color=green)](https://adventofcode.com/2015)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue.svg)](https://github.com/joseareia/advent-of-code/graphs/commit-activity)
 
-This repository contains my solutions for the [Advent of Code](https://adventofcode.com/) challenges from all years. 
+Welcome to my repository of solutions for the [Advent of Code](https://adventofcode.com/) challenges across various years.
 
-Currently, I'm working on both 2024 and 2015. I'll try to use different programming languages for each year. For 2024, I’m using [Perl](https://www.perl.org/) and possibly [Lua](https://www.lua.org/) as the challenge progresses. For 2015, I’m using [Python](https://www.python.org/). 
+Currently, I'm tackling the 2024 and 2015 challenges simultaneously, experimenting with different programming languages for each year. For the 2024 challenges, I’m using [Perl](https://www.perl.org/) and potentially [Lua](https://www.lua.org/) as the days progress. For the 2015 challenges, I’m working with [Python](https://www.python.org/) only.
 
-Please note that the _comments_ in the code reflect my thought process while developing the solutions for each day.
+Each solution is accompanied by detailed comments that document my thought process as I work through the problem-solving journey. These insights may help others understand my approach or inspire new techniques!
+
+Feel free to explore the code and follow my progress as I continue to take on new challenges each year.
 
 ## Progress
 
