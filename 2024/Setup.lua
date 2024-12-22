@@ -26,7 +26,7 @@ utils.show_progress("Creating the project directory", command)
 local input_file = io.open(folder .. "/input.txt", "w")
 if not input_file then print(nok .. "Failed to create the input file.") goto exit end
 utils.show_progress("Creating the input file")
-input_file:write("Place your input file here.\n") -- Content that will be placed inside the input file.
+input_file:write("Place your input file here.") -- Content that will be placed inside the input file.
 input_file:close()
 
 -- Creates the Perl script file and places it inside the previously created directory.
