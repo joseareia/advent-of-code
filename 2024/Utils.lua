@@ -41,7 +41,7 @@ end
 
 function utils.perl_script(i)
     local script_content = [[
-#!/usr/bin/perl
+#!/usr/bin/perl -l
 
 use strict;
 use warnings;
@@ -56,7 +56,7 @@ while (<$in>) {
     my @line = split(/\s+/, $_);
 }
 
-print "Part ]] .. utils.pad_number(i) .. [[ : $total\n";
+print "Part ]] .. utils.pad_number(i) .. [[ : $total";
 ]]
     return script_content
 end
