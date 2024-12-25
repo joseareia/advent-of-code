@@ -5,7 +5,7 @@
 
 Welcome to my repository of solutions for the [Advent of Code](https://adventofcode.com/) challenges across various years.
 
-Currently, I'm tackling the 2024 and 2015 challenges simultaneously, experimenting with different programming languages for each year. For the 2024 challenges, I’m using [Perl](https://www.perl.org/) and potentially [Lua](https://www.lua.org/) as the days progress. For the 2015 challenges, I’m working with [Python](https://www.python.org/) only.
+I am currently revisiting challenges from previous years, experimenting with different programming languages for each year. At the moment, I am working on the challenges from 2015 using [Python](https://www.python.org/) exclusively. You can check the [Progress](https://github.com/joseareia/advent-of-code?tab=readme-ov-file#progress) tab to see the progress I have made in each year I’ve tackled or am currently tackling.
 
 Each solution is accompanied by detailed comments that document my thought process as I work through the problem-solving journey. These insights may help others understand my approach or inspire new techniques!
 
