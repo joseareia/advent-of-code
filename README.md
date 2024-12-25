@@ -1,7 +1,6 @@
 # Advent of Code
-[![current-2024](https://img.shields.io/badge/In%20Progess-2024-1f425f.svg?color=green)](https://adventofcode.com/2024/)
 [![current-2015](https://img.shields.io/badge/In%20Progess-2015-1f425f.svg?color=green)](https://adventofcode.com/2015)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue.svg)](https://github.com/joseareia/advent-of-code/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained-Yes-blue.svg)](https://github.com/joseareia/advent-of-code/graphs/commit-activity)
 
 Welcome to my repository of solutions for the [Advent of Code](https://adventofcode.com/) challenges across various years.
 
