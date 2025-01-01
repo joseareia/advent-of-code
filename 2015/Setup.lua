@@ -9,7 +9,7 @@ local utils = require("Utils")
 
 -- Log message within a systemd boot style.. cause it's cool!
 local ok = "[\27[32m OK \27[0m] "
-local nok = "[\27[31m NOK \27[0m] "
+local nok = "[\27[31m ERROR \27[0m] "
 
 -- Fetch the Advent of Code day by a user input.
 io.write("Advent of Code - Please specify the day (1-25): ")
