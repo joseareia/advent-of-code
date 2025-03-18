@@ -15,7 +15,7 @@ The table below shows my progress for each year:
 
 | Year | Language | Stars Earned |
 | :--: | :------: | :----------: |
-| 2015 | Python   | 14/50        |
+| 2015 | Python   | 16/50        |
 | 2024 | Perl     | 50/50        |
 
 The progress table was inspired by [@anamsmartins](https://github.com/anamsmartins) :heart:
