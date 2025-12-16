@@ -48,7 +48,7 @@ for line in file:lines() do
     total = total + 1
 end
 
-print("Part ]] .. utils.pad_number(i) .. [[ " .. total)
+print("Part ]] .. utils.pad_number(i) .. [[ : " .. total)
 ]]
     return script_content
 end
