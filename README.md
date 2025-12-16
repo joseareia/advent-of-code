@@ -18,7 +18,7 @@ The table below shows my progress for each year:
 | :--: | :------: | :----------: |
 | 2015 | Python   | 16/50        |
 | 2024 | Perl     | 50/50        |
-| 2025 | Lua      | 02/24        |
+| 2025 | Lua      | 04/24        |
 
 ## Input Files
 The input files for my solutions are stored in each day's folder. However, all my solutions are designed to work with any valid inputs. Feel free to grab your own inputs from the [Advent of Code](https://adventofcode.com/) website and try them out!
